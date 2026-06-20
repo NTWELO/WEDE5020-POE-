@@ -1,0 +1,77 @@
+/* file: css/style,css */
+
+/* Background */
+body {
+    font-family: 'Franklin Gothic Medium',
+    'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    
+}
+.text{
+    font-size: medium;
+    color: rgb(154, 124, 156);
+} 
+.highlight {
+    color:papayawhip;
+    font-weight: bold;
+}
+p.highlight {
+    color: rgb(99, 83, 97);
+}
+button:hover {
+    background-color: rgb(119, 25, 86);
+}
+
+div {
+  width: 300px;
+  border: 15px solid rgb(180, 69, 165);
+  padding: 50px;
+  margin: 20px;
+}
+
+.btn {
+    background-color: azure;
+    color: rgb(221, 184, 139);
+    padding:0cap;
+    border: 0cap;
+    cursor: pointer;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+box-shadow offset-x offset-y blur-radius spread-radius color
+
+/* Hover effect */
+button:hover {
+    background-color: rgb(126, 49, 107);
+    transform: scale(0.95);
+}
+/* Click effect */
+button:focus {
+    background-attachment:fixed;
+    transform: scale(0.95);
+}
+/*  Focus effect */
+button:focus {
+    outline: rgb(250, 215, 238);
+}
+button {
+    box-shadow: 2px 2px 5px rgba(rgb(51, 3, 3), rgb(7, 251, 7), rgb(14, 14, 74), alpha);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color:rgb(109, 97, 97)
+}
+:root {
+--primary-color:var(--primary-color) pink
+}
+h1{
+    color: var(--primary-color) blueviolet;
+}
+
+  
+ 
+  
